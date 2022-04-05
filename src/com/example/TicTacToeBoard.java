@@ -60,33 +60,33 @@ public class TicTacToeBoard {
    * @return true if wins, false if does not win
    */
   public boolean checkWinner(char check, String board) {
-// 	  if(board.charAt(0) == check && board.charAt(1) == check && board.charAt(2) == check) {
-// 		  return true;
-// 	  }
-// 	  if(board.charAt(3) == check && board.charAt(4) == check && board.charAt(5) == check) {
-// 		  return true;
-// 	  }
-// 	  if(board.charAt(6) == check && board.charAt(7) == check && board.charAt(8) == check) {
-// 		  return true;
-// 	  }
-// 	  if(board.charAt(0) == check && board.charAt(3) == check && board.charAt(6) == check) {
-// 		  return true;
-// 	  }
-// 	  if(board.charAt(1) == check && board.charAt(4) == check && board.charAt(7) == check) {
-// 		  return true;
-// 	  }
-// 	  if(board.charAt(2) == check && board.charAt(5) == check && board.charAt(8) == check) {
-// 		  return true;
-// 	  }
-// 	  if(board.charAt(0) == check && board.charAt(4) == check && board.charAt(8) == check) {
-// 		  return true;
-// 	  }
-// 	  return board.charAt(2) == check && board.charAt(4) == check && board.charAt(6) == check;
+	  if(board.charAt(0) == check && board.charAt(1) == check && board.charAt(2) == check) {
+		  return true;
+	  }
+	  if(board.charAt(3) == check && board.charAt(4) == check && board.charAt(5) == check) {
+		  return true;
+	  }
+	  if(board.charAt(6) == check && board.charAt(7) == check && board.charAt(8) == check) {
+		  return true;
+	  }
+	  if(board.charAt(0) == check && board.charAt(3) == check && board.charAt(6) == check) {
+		  return true;
+	  }
+	  if(board.charAt(1) == check && board.charAt(4) == check && board.charAt(7) == check) {
+		  return true;
+	  }
+	  if(board.charAt(2) == check && board.charAt(5) == check && board.charAt(8) == check) {
+		  return true;
+	  }
+	  if(board.charAt(0) == check && board.charAt(4) == check && board.charAt(8) == check) {
+		  return true;
+	  }
+	  return board.charAt(2) == check && board.charAt(4) == check && board.charAt(6) == check;
 	  
 	  /*
 	   * Alternate method
 	   */
-	  return ((board.charAt(0) == check && board.charAt(1) == check && board.charAt(2) == check) || (board.charAt(3) == check && board.charAt(4) == check && board.charAt(5) == check)|| (board.charAt(6) == check && board.charAt(7) == check && board.charAt(8) == check) || (board.charAt(0) == check && board.charAt(3) == check && board.charAt(6) == check) || (board.charAt(1) == check && board.charAt(4) == check && board.charAt(7) == check) || (board.charAt(2) == check && board.charAt(5) == check && board.charAt(8) == check) || (board.charAt(0) == check && board.charAt(4) == check && board.charAt(8) == check) || (board.charAt(2) == check && board.charAt(4) == check && board.charAt(6) == check));
+// 	  return ((board.charAt(0) == check && board.charAt(1) == check && board.charAt(2) == check) || (board.charAt(3) == check && board.charAt(4) == check && board.charAt(5) == check)|| (board.charAt(6) == check && board.charAt(7) == check && board.charAt(8) == check) || (board.charAt(0) == check && board.charAt(3) == check && board.charAt(6) == check) || (board.charAt(1) == check && board.charAt(4) == check && board.charAt(7) == check) || (board.charAt(2) == check && board.charAt(5) == check && board.charAt(8) == check) || (board.charAt(0) == check && board.charAt(4) == check && board.charAt(8) == check) || (board.charAt(2) == check && board.charAt(4) == check && board.charAt(6) == check));
 	  
   }
   
