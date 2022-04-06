@@ -5,7 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>uiuc126</groupId>
-  <artifactId>crazy-cardgame</artifactId>
+  <artifactId>TicTacToe</artifactId>
   <version>1.0-SNAPSHOT</version>
 
   <dependencies>
