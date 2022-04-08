@@ -43,7 +43,7 @@ public class TicTacToe {
 			  return Evaluation.NoWinner;
 		  }
 	  }
-	  
+	   
 	  /**
 	   * 
 	   * @param check The player needed to be checked
